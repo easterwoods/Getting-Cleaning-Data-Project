@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Class Project
 
-Files: run_analysis.R script, tidy_data.csv output file
+Files: run_analysis.R script, tidy_data.txt output file
      
 Format: A data frame with 180 observations on 81 variables. Variables are described below script explanation. 
 
@@ -16,7 +16,7 @@ The "run_analysis.R" script provided performs the following operations, in order
 6. Changes "activity" column to show actual activity name based on numerical designation. 
 7. Groups data by subject, then activity. 
 8. Summarizes the table, and applies the mean function to provide the means of each of the 79 measurements, for the 30 subjects, and 6 different activities. 
-9. Writes an output csv file called "tidy_data.csv" to the working directory. 
+9. Writes an output txt file called "tidy_data.txt" to the working directory. 
 
 The data for this project was obtained here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
