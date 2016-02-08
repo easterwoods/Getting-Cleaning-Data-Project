@@ -45,7 +45,7 @@ subset_data$activity[subset_data$activity == '6'] <- 'laying'
 
 tidy_data <- group_by(subset_data, subject, activity)
 tidy_data <- summarize_each(tidy_data, funs(mean))
-write.csv(tidy_data, "tidy_data.csv")
+write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
 
 ##Success!! 
 }
